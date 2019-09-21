@@ -14,7 +14,7 @@ s.version = "0.1.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Deepak Sharma" => "deepak.sharma1@girnarsoft.com" }
+s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
 s.homepage = "https://github.com/iOSDeepak/NeonPhotoLibrary"
