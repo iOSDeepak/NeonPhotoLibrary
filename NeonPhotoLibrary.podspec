@@ -17,10 +17,10 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/iOSDeepak/NeonPhotoLibrary"
+s.homepage = "https://github.com/iOSDeepak/NeonSpecs"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git', 
+s.source = { :git => 'https://github.com/iOSDeepak/NeonSpecs.git', 
              :tag => "#{s.version}" }
 
 # 7
