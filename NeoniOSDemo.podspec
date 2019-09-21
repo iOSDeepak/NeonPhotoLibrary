@@ -27,10 +27,10 @@ s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git',
 s.framework = "UIKit"
 
 # 8
-s.source_files = "girnarsoft-neon-ios-cocoapods/**/*.{swift,h,m}"
+s.source_files = "NeonPhotoLibrary/**/*.{swift,h,m}"
 
 # 9
-s.resources = "girnarsoft-neon-ios-cocoapods/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "NeonPhotoLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
