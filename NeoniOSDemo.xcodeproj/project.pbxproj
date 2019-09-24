@@ -79,6 +79,7 @@
 		0085602F233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */; };
 		00856032233A31AA004DCDE8 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00856030233A31AA004DCDE8 /* TOCropViewController.m */; };
 		00856033233A31AA004DCDE8 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00856031233A31AA004DCDE8 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00CEEF49233AA65D006EE8CD /* NeonPhotoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CEEF48233AA5C0006EE8CD /* NeonPhotoLibrary.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -323,6 +324,7 @@
 				0085600A233A2C31004DCDE8 /* CropViewController.h in Headers */,
 				0085602C233A2C31004DCDE8 /* TOCropOverlayView.h in Headers */,
 				0085601B233A2C31004DCDE8 /* UIImage+CropRotate.h in Headers */,
+				00CEEF49233AA65D006EE8CD /* NeonPhotoLibrary.h in Headers */,
 				00855FFC233A2C31004DCDE8 /* TOCroppedImageAttributes.h in Headers */,
 				00856025233A2C31004DCDE8 /* TOActivityCroppedImageProvider.h in Headers */,
 				0085600E233A2C31004DCDE8 /* TOCropViewControllerTransitioning.h in Headers */,
