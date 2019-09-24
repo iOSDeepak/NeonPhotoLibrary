@@ -78,6 +78,8 @@
 		0085602D233A2C31004DCDE8 /* NeutralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEC233A2C31004DCDE8 /* NeutralModel.swift */; };
 		0085602E233A2C31004DCDE8 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FED233A2C31004DCDE8 /* ShowImageViewController.swift */; };
 		0085602F233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */; };
+		00856032233A31AA004DCDE8 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00856030233A31AA004DCDE8 /* TOCropViewController.m */; };
+		00856033233A31AA004DCDE8 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00856031233A31AA004DCDE8 /* TOCropViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +180,8 @@
 		00855FEC233A2C31004DCDE8 /* NeutralModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeutralModel.swift; path = NeoniOSDemo/NeutralModel.swift; sourceTree = "<group>"; };
 		00855FED233A2C31004DCDE8 /* ShowImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowImageViewController.swift; path = NeoniOSDemo/ShowImageViewController.swift; sourceTree = "<group>"; };
 		00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerConfiguration.swift; path = NeoniOSDemo/OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		00856030233A31AA004DCDE8 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = NeoniOSDemo/TOCropViewController.m; sourceTree = "<group>"; };
+		00856031233A31AA004DCDE8 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = NeoniOSDemo/TOCropViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,8 @@
 				00855FD4233A2C2E004DCDE8 /* TOCropView.h */,
 				00855FBE233A2C2C004DCDE8 /* TOCropView.m */,
 				00855FC1233A2C2C004DCDE8 /* TOCropViewConstants.h */,
+				00856031233A31AA004DCDE8 /* TOCropViewController.h */,
+				00856030233A31AA004DCDE8 /* TOCropViewController.m */,
 				00855FCD233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.h */,
 				00855FC6233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.m */,
 				00855FDA233A2C2F004DCDE8 /* UIImage+CropRotate.h */,
@@ -323,6 +329,7 @@
 				00856025233A2C31004DCDE8 /* TOActivityCroppedImageProvider.h in Headers */,
 				0085600E233A2C31004DCDE8 /* TOCropViewControllerTransitioning.h in Headers */,
 				00856014233A2C31004DCDE8 /* TOCropToolbar.h in Headers */,
+				00856033233A31AA004DCDE8 /* TOCropViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +444,7 @@
 				00855FF9233A2C31004DCDE8 /* Bundle+Helper.swift in Sources */,
 				0085602E233A2C31004DCDE8 /* ShowImageViewController.swift in Sources */,
 				00856019233A2C31004DCDE8 /* GetLocation.swift in Sources */,
+				00856032233A31AA004DCDE8 /* TOCropViewController.m in Sources */,
 				00856020233A2C31004DCDE8 /* GalleryModel.swift in Sources */,
 				00855FF2233A2C31004DCDE8 /* CameraOnlyViewController.swift in Sources */,
 				00855FF4233A2C31004DCDE8 /* CameraModel.swift in Sources */,
