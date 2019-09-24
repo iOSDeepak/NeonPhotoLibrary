@@ -16,7 +16,7 @@ s.source = { :git => 'https://github.com/iOSDeepak/NeonSpecs.git',
              :tag => "#{s.version}" }
 s.framework = "UIKit"
 s.source_files = "NeonPhotoLibrary/*.{swift,h,m}"
-s.resources = "NeonPhotoLibrary/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "NeonPhotoLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "4.2"
 
 end
