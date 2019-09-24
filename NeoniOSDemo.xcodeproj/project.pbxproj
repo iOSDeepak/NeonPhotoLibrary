@@ -12,7 +12,7 @@
 		001659B123340FD000A83EF0 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0016594C23340FCF00A83EF0 /* TOCropViewControllerLocalizable.strings */; };
 		001659B223340FD000A83EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0016595623340FCF00A83EF0 /* Assets.xcassets */; };
 		001659B323340FD000A83EF0 /* drop-down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0016595D23340FCF00A83EF0 /* drop-down-arrow.png */; };
-		001659B423340FD000A83EF0 /* Neon-Ios-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016596823340FCF00A83EF0 /* Neon-Ios-Bridging-Header.h */; };
+		001659B423340FD000A83EF0 /* NeoniOSDemo-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016596823340FCF00A83EF0 /* NeoniOSDemo-Bridging-Header.h */; };
 		00855FEF233A2C31004DCDE8 /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FAE233A2C2A004DCDE8 /* OpalImagePickerController.swift */; };
 		00855FF0233A2C31004DCDE8 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FAF233A2C2A004DCDE8 /* TOCropScrollView.h */; };
 		00855FF1233A2C31004DCDE8 /* IGalleryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB0233A2C2A004DCDE8 /* IGalleryParam.swift */; };
@@ -114,7 +114,7 @@
 		0016596523340FCF00A83EF0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016596623340FCF00A83EF0 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016596723340FCF00A83EF0 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
-		0016596823340FCF00A83EF0 /* Neon-Ios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neon-Ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		0016596823340FCF00A83EF0 /* NeoniOSDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NeoniOSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		00855FAE233A2C2A004DCDE8 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerController.swift; path = NeoniOSDemo/OpalImagePickerController.swift; sourceTree = "<group>"; };
 		00855FAF233A2C2A004DCDE8 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = NeoniOSDemo/TOCropScrollView.h; sourceTree = "<group>"; };
 		00855FB0233A2C2A004DCDE8 /* IGalleryParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IGalleryParam.swift; path = NeoniOSDemo/IGalleryParam.swift; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 				0016594C23340FCF00A83EF0 /* TOCropViewControllerLocalizable.strings */,
 				0016595623340FCF00A83EF0 /* Assets.xcassets */,
 				0016595D23340FCF00A83EF0 /* drop-down-arrow.png */,
-				0016596823340FCF00A83EF0 /* Neon-Ios-Bridging-Header.h */,
+				0016596823340FCF00A83EF0 /* NeoniOSDemo-Bridging-Header.h */,
 			);
 			name = Resources;
 			path = NeoniOSDemo/Resources;
@@ -325,7 +325,7 @@
 				0085602C233A2C31004DCDE8 /* TOCropOverlayView.h in Headers */,
 				0085601B233A2C31004DCDE8 /* UIImage+CropRotate.h in Headers */,
 				00855FFC233A2C31004DCDE8 /* TOCroppedImageAttributes.h in Headers */,
-				001659B423340FD000A83EF0 /* Neon-Ios-Bridging-Header.h in Headers */,
+				001659B423340FD000A83EF0 /* NeoniOSDemo-Bridging-Header.h in Headers */,
 				00856025233A2C31004DCDE8 /* TOActivityCroppedImageProvider.h in Headers */,
 				0085600E233A2C31004DCDE8 /* TOCropViewControllerTransitioning.h in Headers */,
 				00856014233A2C31004DCDE8 /* TOCropToolbar.h in Headers */,
@@ -676,7 +676,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Neon-Ios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoniOSDemo/NeoniOSDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -703,7 +703,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Neon-Ios-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoniOSDemo/NeoniOSDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
