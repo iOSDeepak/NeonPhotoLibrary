@@ -6,7 +6,7 @@ s.ios.deployment_target = '12.0'
 s.name = "NeonPhotoLibrary"
 s.summary = "Neon iOS lets a user select images."
 s.requires_arc = true
-s.version = "0.1.0"
+s.version = "1.0.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 
