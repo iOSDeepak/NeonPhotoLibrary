@@ -8,126 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		0016590E23340F2D00A83EF0 /* NeoniOSDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016590C23340F2D00A83EF0 /* NeoniOSDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0016598623340FD000A83EF0 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016591523340FCF00A83EF0 /* TOCropViewConstants.h */; };
-		0016598723340FD000A83EF0 /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016591823340FCF00A83EF0 /* MyImageCell.swift */; };
-		0016598823340FD000A83EF0 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016591A23340FCF00A83EF0 /* TOCropView.h */; };
-		0016598923340FD000A83EF0 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016591B23340FCF00A83EF0 /* TOCropOverlayView.h */; };
-		0016598A23340FD000A83EF0 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016591C23340FCF00A83EF0 /* TOCropToolbar.h */; };
-		0016598B23340FD000A83EF0 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016591D23340FCF00A83EF0 /* TOCropScrollView.m */; };
-		0016598C23340FD000A83EF0 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016591E23340FCF00A83EF0 /* TOCropView.m */; };
-		0016598D23340FD000A83EF0 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016591F23340FCF00A83EF0 /* TOCropOverlayView.m */; };
-		0016598E23340FD000A83EF0 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016592023340FCF00A83EF0 /* TOCropToolbar.m */; };
-		0016598F23340FD000A83EF0 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016592123340FCF00A83EF0 /* TOCropScrollView.h */; };
 		0016599023340FD000A83EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0016592223340FCF00A83EF0 /* Main.storyboard */; };
-		0016599123340FD000A83EF0 /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592623340FCF00A83EF0 /* OpalImagePickerRootViewController.swift */; };
-		0016599223340FD000A83EF0 /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592723340FCF00A83EF0 /* Bundle+Helper.swift */; };
-		0016599323340FD000A83EF0 /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592823340FCF00A83EF0 /* OpalImagePickerController.swift */; };
-		0016599423340FD000A83EF0 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592923340FCF00A83EF0 /* OpalImagePickerConfiguration.swift */; };
-		0016599523340FD000A83EF0 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592A23340FCF00A83EF0 /* UIView+Helper.swift */; };
-		0016599623340FD000A83EF0 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592B23340FCF00A83EF0 /* ImagePickerCollectionViewCell.swift */; };
-		0016599723340FD000A83EF0 /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592C23340FCF00A83EF0 /* UIViewController+OpalImagePicker.swift */; };
-		0016599823340FD000A83EF0 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592D23340FCF00A83EF0 /* TimeInterval+String.swift */; };
-		0016599923340FD000A83EF0 /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016592E23340FCF00A83EF0 /* OpalImagePickerCollectionViewLayout.swift */; };
-		0016599A23340FD000A83EF0 /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016593023340FCF00A83EF0 /* CropViewController.h */; };
-		0016599B23340FD000A83EF0 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593123340FCF00A83EF0 /* CropViewController.swift */; };
-		0016599C23340FD000A83EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593323340FCF00A83EF0 /* ViewController.swift */; };
-		0016599D23340FD000A83EF0 /* SelectImageTagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593423340FCF00A83EF0 /* SelectImageTagController.swift */; };
-		0016599E23340FD000A83EF0 /* SelectImgCameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593523340FCF00A83EF0 /* SelectImgCameraCollectionViewCell.swift */; };
-		0016599F23340FD000A83EF0 /* imgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593623340FCF00A83EF0 /* imgCollectionViewCell.swift */; };
-		001659A023340FD000A83EF0 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593723340FCF00A83EF0 /* ShowImageViewController.swift */; };
-		001659A123340FD000A83EF0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593823340FCF00A83EF0 /* CameraViewController.swift */; };
-		001659A223340FD000A83EF0 /* CameraOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593923340FCF00A83EF0 /* CameraOnlyViewController.swift */; };
-		001659A323340FD000A83EF0 /* OpenNeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016593A23340FCF00A83EF0 /* OpenNeutralViewController.swift */; };
-		001659A423340FD000A83EF0 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016593D23340FCF00A83EF0 /* TOActivityCroppedImageProvider.m */; };
-		001659A523340FD000A83EF0 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016593E23340FCF00A83EF0 /* TOCropViewControllerTransitioning.m */; };
-		001659A623340FD000A83EF0 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016593F23340FCF00A83EF0 /* TOCroppedImageAttributes.m */; };
-		001659A723340FD000A83EF0 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016594023340FCF00A83EF0 /* TOActivityCroppedImageProvider.h */; };
-		001659A823340FD000A83EF0 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016594123340FCF00A83EF0 /* TOCropViewControllerTransitioning.h */; };
-		001659A923340FD000A83EF0 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016594223340FCF00A83EF0 /* TOCroppedImageAttributes.h */; };
-		001659AA23340FD000A83EF0 /* ImageTagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594423340FCF00A83EF0 /* ImageTagModel.swift */; };
-		001659AB23340FD000A83EF0 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594523340FCF00A83EF0 /* PhotosModel.swift */; };
-		001659AC23340FD000A83EF0 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594623340FCF00A83EF0 /* Configure.swift */; };
-		001659AD23340FD000A83EF0 /* NeonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594723340FCF00A83EF0 /* NeonResponse.swift */; };
-		001659AE23340FD000A83EF0 /* NeutralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594823340FCF00A83EF0 /* NeutralModel.swift */; };
-		001659AF23340FD000A83EF0 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594923340FCF00A83EF0 /* CameraModel.swift */; };
-		001659B023340FD000A83EF0 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016594A23340FCF00A83EF0 /* GalleryModel.swift */; };
 		001659B123340FD000A83EF0 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0016594C23340FCF00A83EF0 /* TOCropViewControllerLocalizable.strings */; };
 		001659B223340FD000A83EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0016595623340FCF00A83EF0 /* Assets.xcassets */; };
 		001659B323340FD000A83EF0 /* drop-down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0016595D23340FCF00A83EF0 /* drop-down-arrow.png */; };
 		001659B423340FD000A83EF0 /* Neon-Ios-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016596823340FCF00A83EF0 /* Neon-Ios-Bridging-Header.h */; };
-		001659B523340FD000A83EF0 /* NeoniOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016596923340FD000A83EF0 /* NeoniOS.h */; };
-		001659B623340FD000A83EF0 /* CameraFacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016596C23340FD000A83EF0 /* CameraFacing.swift */; };
-		001659B723340FD000A83EF0 /* FlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016596D23340FD000A83EF0 /* FlashMode.swift */; };
-		001659B823340FD000A83EF0 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016596E23340FD000A83EF0 /* ResponseCode.swift */; };
-		001659B923340FD000A83EF0 /* GalleryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016596F23340FD000A83EF0 /* GalleryType.swift */; };
-		001659BA23340FD000A83EF0 /* CameraOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597023340FD000A83EF0 /* CameraOrientation.swift */; };
-		001659BB23340FD000A83EF0 /* LibraryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597123340FD000A83EF0 /* LibraryMode.swift */; };
-		001659BC23340FD000A83EF0 /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597223340FD000A83EF0 /* CameraType.swift */; };
-		001659BD23340FD000A83EF0 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597423340FD000A83EF0 /* GetLocation.swift */; };
-		001659BE23340FD000A83EF0 /* FileInfoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597523340FD000A83EF0 /* FileInfoCollection.swift */; };
-		001659BF23340FD000A83EF0 /* NeonImagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597623340FD000A83EF0 /* NeonImagesHandler.swift */; };
-		001659C023340FD000A83EF0 /* SaveImageInGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597723340FD000A83EF0 /* SaveImageInGallery.swift */; };
-		001659C123340FD000A83EF0 /* CustomParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597823340FD000A83EF0 /* CustomParameters.swift */; };
-		001659C223340FD000A83EF0 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597923340FD000A83EF0 /* FileInfo.swift */; };
-		001659C323340FD000A83EF0 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016597B23340FD000A83EF0 /* UIImage+CropRotate.m */; };
-		001659C423340FD000A83EF0 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016597C23340FD000A83EF0 /* UIImage+CropRotate.h */; };
-		001659C523340FD000A83EF0 /* LivePhotoNextTagListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597E23340FD000A83EF0 /* LivePhotoNextTagListener.swift */; };
-		001659C623340FD000A83EF0 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016597F23340FD000A83EF0 /* Serializable.swift */; };
-		001659C723340FD000A83EF0 /* LivePhotosListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598023340FD000A83EF0 /* LivePhotosListener.swift */; };
-		001659C823340FD000A83EF0 /* IParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598123340FD000A83EF0 /* IParam.swift */; };
-		001659C923340FD000A83EF0 /* INeutralParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598223340FD000A83EF0 /* INeutralParam.swift */; };
-		001659CA23340FD000A83EF0 /* ICameraParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598323340FD000A83EF0 /* ICameraParam.swift */; };
-		001659CB23340FD000A83EF0 /* IGalleryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598423340FD000A83EF0 /* IGalleryParam.swift */; };
-		001659CC23340FD000A83EF0 /* OnImageCollectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016598523340FD000A83EF0 /* OnImageCollectionListener.swift */; };
+		00855FEF233A2C31004DCDE8 /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FAE233A2C2A004DCDE8 /* OpalImagePickerController.swift */; };
+		00855FF0233A2C31004DCDE8 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FAF233A2C2A004DCDE8 /* TOCropScrollView.h */; };
+		00855FF1233A2C31004DCDE8 /* IGalleryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB0233A2C2A004DCDE8 /* IGalleryParam.swift */; };
+		00855FF2233A2C31004DCDE8 /* CameraOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB1233A2C2A004DCDE8 /* CameraOnlyViewController.swift */; };
+		00855FF3233A2C31004DCDE8 /* ICameraParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB2233A2C2A004DCDE8 /* ICameraParam.swift */; };
+		00855FF4233A2C31004DCDE8 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB3233A2C2B004DCDE8 /* CameraModel.swift */; };
+		00855FF5233A2C31004DCDE8 /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB4233A2C2B004DCDE8 /* UIViewController+OpalImagePicker.swift */; };
+		00855FF6233A2C31004DCDE8 /* SelectImgCameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB5233A2C2B004DCDE8 /* SelectImgCameraCollectionViewCell.swift */; };
+		00855FF7233A2C31004DCDE8 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB6233A2C2B004DCDE8 /* Configure.swift */; };
+		00855FF8233A2C31004DCDE8 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB7233A2C2B004DCDE8 /* TOCropToolbar.m */; };
+		00855FF9233A2C31004DCDE8 /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB8233A2C2B004DCDE8 /* Bundle+Helper.swift */; };
+		00855FFA233A2C31004DCDE8 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FB9233A2C2B004DCDE8 /* TOCropScrollView.m */; };
+		00855FFB233A2C31004DCDE8 /* CameraOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FBA233A2C2B004DCDE8 /* CameraOrientation.swift */; };
+		00855FFC233A2C31004DCDE8 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FBB233A2C2B004DCDE8 /* TOCroppedImageAttributes.h */; };
+		00855FFD233A2C31004DCDE8 /* NeonImagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FBC233A2C2B004DCDE8 /* NeonImagesHandler.swift */; };
+		00855FFE233A2C31004DCDE8 /* CustomParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FBD233A2C2B004DCDE8 /* CustomParameters.swift */; };
+		00855FFF233A2C31004DCDE8 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FBE233A2C2C004DCDE8 /* TOCropView.m */; };
+		00856000233A2C31004DCDE8 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FBF233A2C2C004DCDE8 /* UIImage+CropRotate.m */; };
+		00856001233A2C31004DCDE8 /* IParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC0233A2C2C004DCDE8 /* IParam.swift */; };
+		00856002233A2C31004DCDE8 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FC1233A2C2C004DCDE8 /* TOCropViewConstants.h */; };
+		00856003233A2C31004DCDE8 /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC2233A2C2C004DCDE8 /* CameraType.swift */; };
+		00856004233A2C31004DCDE8 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC3233A2C2C004DCDE8 /* CropViewController.swift */; };
+		00856005233A2C31004DCDE8 /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC4233A2C2C004DCDE8 /* MyImageCell.swift */; };
+		00856006233A2C31004DCDE8 /* FileInfoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC5233A2C2C004DCDE8 /* FileInfoCollection.swift */; };
+		00856007233A2C31004DCDE8 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC6233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.m */; };
+		00856008233A2C31004DCDE8 /* imgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC7233A2C2D004DCDE8 /* imgCollectionViewCell.swift */; };
+		00856009233A2C31004DCDE8 /* LivePhotosListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FC8233A2C2D004DCDE8 /* LivePhotosListener.swift */; };
+		0085600A233A2C31004DCDE8 /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FC9233A2C2D004DCDE8 /* CropViewController.h */; };
+		0085600B233A2C31004DCDE8 /* INeutralParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FCA233A2C2D004DCDE8 /* INeutralParam.swift */; };
+		0085600C233A2C31004DCDE8 /* OpenNeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FCB233A2C2D004DCDE8 /* OpenNeutralViewController.swift */; };
+		0085600D233A2C31004DCDE8 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FCC233A2C2D004DCDE8 /* PhotosModel.swift */; };
+		0085600E233A2C31004DCDE8 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FCD233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.h */; };
+		0085600F233A2C31004DCDE8 /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FCE233A2C2D004DCDE8 /* OpalImagePickerRootViewController.swift */; };
+		00856010233A2C31004DCDE8 /* GalleryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FCF233A2C2E004DCDE8 /* GalleryType.swift */; };
+		00856011233A2C31004DCDE8 /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD0233A2C2E004DCDE8 /* OpalImagePickerCollectionViewLayout.swift */; };
+		00856012233A2C31004DCDE8 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD1233A2C2E004DCDE8 /* ImagePickerCollectionViewCell.swift */; };
+		00856013233A2C31004DCDE8 /* CameraFacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD2233A2C2E004DCDE8 /* CameraFacing.swift */; };
+		00856014233A2C31004DCDE8 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FD3233A2C2E004DCDE8 /* TOCropToolbar.h */; };
+		00856015233A2C31004DCDE8 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FD4233A2C2E004DCDE8 /* TOCropView.h */; };
+		00856016233A2C31004DCDE8 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD5233A2C2E004DCDE8 /* Serializable.swift */; };
+		00856017233A2C31004DCDE8 /* LivePhotoNextTagListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD6233A2C2E004DCDE8 /* LivePhotoNextTagListener.swift */; };
+		00856018233A2C31004DCDE8 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD7233A2C2E004DCDE8 /* TOCropOverlayView.m */; };
+		00856019233A2C31004DCDE8 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD8233A2C2F004DCDE8 /* GetLocation.swift */; };
+		0085601A233A2C31004DCDE8 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FD9233A2C2F004DCDE8 /* TOActivityCroppedImageProvider.m */; };
+		0085601B233A2C31004DCDE8 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FDA233A2C2F004DCDE8 /* UIImage+CropRotate.h */; };
+		0085601C233A2C31004DCDE8 /* NeonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FDB233A2C2F004DCDE8 /* NeonResponse.swift */; };
+		0085601D233A2C31004DCDE8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FDC233A2C2F004DCDE8 /* CameraViewController.swift */; };
+		0085601E233A2C31004DCDE8 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FDD233A2C2F004DCDE8 /* UIView+Helper.swift */; };
+		0085601F233A2C31004DCDE8 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FDE233A2C2F004DCDE8 /* FileInfo.swift */; };
+		00856020233A2C31004DCDE8 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FDF233A2C2F004DCDE8 /* GalleryModel.swift */; };
+		00856021233A2C31004DCDE8 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE0233A2C2F004DCDE8 /* ResponseCode.swift */; };
+		00856022233A2C31004DCDE8 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE1233A2C2F004DCDE8 /* TimeInterval+String.swift */; };
+		00856023233A2C31004DCDE8 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE2233A2C30004DCDE8 /* TOCroppedImageAttributes.m */; };
+		00856024233A2C31004DCDE8 /* SelectImageTagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE3233A2C30004DCDE8 /* SelectImageTagController.swift */; };
+		00856025233A2C31004DCDE8 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FE4233A2C30004DCDE8 /* TOActivityCroppedImageProvider.h */; };
+		00856026233A2C31004DCDE8 /* OnImageCollectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE5233A2C30004DCDE8 /* OnImageCollectionListener.swift */; };
+		00856027233A2C31004DCDE8 /* SaveImageInGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE6233A2C30004DCDE8 /* SaveImageInGallery.swift */; };
+		00856028233A2C31004DCDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE7233A2C30004DCDE8 /* ViewController.swift */; };
+		00856029233A2C31004DCDE8 /* ImageTagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE8233A2C30004DCDE8 /* ImageTagModel.swift */; };
+		0085602A233A2C31004DCDE8 /* FlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FE9233A2C30004DCDE8 /* FlashMode.swift */; };
+		0085602B233A2C31004DCDE8 /* LibraryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEA233A2C30004DCDE8 /* LibraryMode.swift */; };
+		0085602C233A2C31004DCDE8 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00855FEB233A2C30004DCDE8 /* TOCropOverlayView.h */; };
+		0085602D233A2C31004DCDE8 /* NeutralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEC233A2C31004DCDE8 /* NeutralModel.swift */; };
+		0085602E233A2C31004DCDE8 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FED233A2C31004DCDE8 /* ShowImageViewController.swift */; };
+		0085602F233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0016590923340F2D00A83EF0 /* NeoniOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeoniOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0016590C23340F2D00A83EF0 /* NeoniOSDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeoniOSDemo.h; sourceTree = "<group>"; };
 		0016590D23340F2D00A83EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0016591523340FCF00A83EF0 /* TOCropViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
-		0016591823340FCF00A83EF0 /* MyImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageCell.swift; sourceTree = "<group>"; };
-		0016591A23340FCF00A83EF0 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
-		0016591B23340FCF00A83EF0 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
-		0016591C23340FCF00A83EF0 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
-		0016591D23340FCF00A83EF0 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
-		0016591E23340FCF00A83EF0 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
-		0016591F23340FCF00A83EF0 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
-		0016592023340FCF00A83EF0 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
-		0016592123340FCF00A83EF0 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
 		0016592323340FCF00A83EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0016592623340FCF00A83EF0 /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
-		0016592723340FCF00A83EF0 /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Helper.swift"; sourceTree = "<group>"; };
-		0016592823340FCF00A83EF0 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerController.swift; sourceTree = "<group>"; };
-		0016592923340FCF00A83EF0 /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
-		0016592A23340FCF00A83EF0 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
-		0016592B23340FCF00A83EF0 /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
-		0016592C23340FCF00A83EF0 /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
-		0016592D23340FCF00A83EF0 /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
-		0016592E23340FCF00A83EF0 /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
-		0016593023340FCF00A83EF0 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
-		0016593123340FCF00A83EF0 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
-		0016593323340FCF00A83EF0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0016593423340FCF00A83EF0 /* SelectImageTagController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImageTagController.swift; sourceTree = "<group>"; };
-		0016593523340FCF00A83EF0 /* SelectImgCameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImgCameraCollectionViewCell.swift; sourceTree = "<group>"; };
-		0016593623340FCF00A83EF0 /* imgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgCollectionViewCell.swift; sourceTree = "<group>"; };
-		0016593723340FCF00A83EF0 /* ShowImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
-		0016593823340FCF00A83EF0 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		0016593923340FCF00A83EF0 /* CameraOnlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOnlyViewController.swift; sourceTree = "<group>"; };
-		0016593A23340FCF00A83EF0 /* OpenNeutralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenNeutralViewController.swift; sourceTree = "<group>"; };
-		0016593D23340FCF00A83EF0 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
-		0016593E23340FCF00A83EF0 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
-		0016593F23340FCF00A83EF0 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
-		0016594023340FCF00A83EF0 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
-		0016594123340FCF00A83EF0 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
-		0016594223340FCF00A83EF0 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
-		0016594423340FCF00A83EF0 /* ImageTagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTagModel.swift; sourceTree = "<group>"; };
-		0016594523340FCF00A83EF0 /* PhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
-		0016594623340FCF00A83EF0 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
-		0016594723340FCF00A83EF0 /* NeonResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonResponse.swift; sourceTree = "<group>"; };
-		0016594823340FCF00A83EF0 /* NeutralModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeutralModel.swift; sourceTree = "<group>"; };
-		0016594923340FCF00A83EF0 /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
-		0016594A23340FCF00A83EF0 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
 		0016594D23340FCF00A83EF0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016594E23340FCF00A83EF0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016594F23340FCF00A83EF0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
@@ -156,30 +113,71 @@
 		0016596623340FCF00A83EF0 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016596723340FCF00A83EF0 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		0016596823340FCF00A83EF0 /* Neon-Ios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neon-Ios-Bridging-Header.h"; sourceTree = "<group>"; };
-		0016596923340FD000A83EF0 /* NeoniOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeoniOS.h; path = NeoniOSDemo/NeoniOS.h; sourceTree = "<group>"; };
-		0016596C23340FD000A83EF0 /* CameraFacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFacing.swift; sourceTree = "<group>"; };
-		0016596D23340FD000A83EF0 /* FlashMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashMode.swift; sourceTree = "<group>"; };
-		0016596E23340FD000A83EF0 /* ResponseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCode.swift; sourceTree = "<group>"; };
-		0016596F23340FD000A83EF0 /* GalleryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryType.swift; sourceTree = "<group>"; };
-		0016597023340FD000A83EF0 /* CameraOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOrientation.swift; sourceTree = "<group>"; };
-		0016597123340FD000A83EF0 /* LibraryMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryMode.swift; sourceTree = "<group>"; };
-		0016597223340FD000A83EF0 /* CameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraType.swift; sourceTree = "<group>"; };
-		0016597423340FD000A83EF0 /* GetLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocation.swift; sourceTree = "<group>"; };
-		0016597523340FD000A83EF0 /* FileInfoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInfoCollection.swift; sourceTree = "<group>"; };
-		0016597623340FD000A83EF0 /* NeonImagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonImagesHandler.swift; sourceTree = "<group>"; };
-		0016597723340FD000A83EF0 /* SaveImageInGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveImageInGallery.swift; sourceTree = "<group>"; };
-		0016597823340FD000A83EF0 /* CustomParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomParameters.swift; sourceTree = "<group>"; };
-		0016597923340FD000A83EF0 /* FileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
-		0016597B23340FD000A83EF0 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
-		0016597C23340FD000A83EF0 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
-		0016597E23340FD000A83EF0 /* LivePhotoNextTagListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotoNextTagListener.swift; sourceTree = "<group>"; };
-		0016597F23340FD000A83EF0 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
-		0016598023340FD000A83EF0 /* LivePhotosListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotosListener.swift; sourceTree = "<group>"; };
-		0016598123340FD000A83EF0 /* IParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IParam.swift; sourceTree = "<group>"; };
-		0016598223340FD000A83EF0 /* INeutralParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INeutralParam.swift; sourceTree = "<group>"; };
-		0016598323340FD000A83EF0 /* ICameraParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICameraParam.swift; sourceTree = "<group>"; };
-		0016598423340FD000A83EF0 /* IGalleryParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGalleryParam.swift; sourceTree = "<group>"; };
-		0016598523340FD000A83EF0 /* OnImageCollectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnImageCollectionListener.swift; sourceTree = "<group>"; };
+		00855FAE233A2C2A004DCDE8 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerController.swift; path = NeoniOSDemo/OpalImagePickerController.swift; sourceTree = "<group>"; };
+		00855FAF233A2C2A004DCDE8 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = NeoniOSDemo/TOCropScrollView.h; sourceTree = "<group>"; };
+		00855FB0233A2C2A004DCDE8 /* IGalleryParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IGalleryParam.swift; path = NeoniOSDemo/IGalleryParam.swift; sourceTree = "<group>"; };
+		00855FB1233A2C2A004DCDE8 /* CameraOnlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraOnlyViewController.swift; path = NeoniOSDemo/CameraOnlyViewController.swift; sourceTree = "<group>"; };
+		00855FB2233A2C2A004DCDE8 /* ICameraParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ICameraParam.swift; path = NeoniOSDemo/ICameraParam.swift; sourceTree = "<group>"; };
+		00855FB3233A2C2B004DCDE8 /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraModel.swift; path = NeoniOSDemo/CameraModel.swift; sourceTree = "<group>"; };
+		00855FB4233A2C2B004DCDE8 /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+OpalImagePicker.swift"; path = "NeoniOSDemo/UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
+		00855FB5233A2C2B004DCDE8 /* SelectImgCameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectImgCameraCollectionViewCell.swift; path = NeoniOSDemo/SelectImgCameraCollectionViewCell.swift; sourceTree = "<group>"; };
+		00855FB6233A2C2B004DCDE8 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configure.swift; path = NeoniOSDemo/Configure.swift; sourceTree = "<group>"; };
+		00855FB7233A2C2B004DCDE8 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = NeoniOSDemo/TOCropToolbar.m; sourceTree = "<group>"; };
+		00855FB8233A2C2B004DCDE8 /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+Helper.swift"; path = "NeoniOSDemo/Bundle+Helper.swift"; sourceTree = "<group>"; };
+		00855FB9233A2C2B004DCDE8 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = NeoniOSDemo/TOCropScrollView.m; sourceTree = "<group>"; };
+		00855FBA233A2C2B004DCDE8 /* CameraOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraOrientation.swift; path = NeoniOSDemo/CameraOrientation.swift; sourceTree = "<group>"; };
+		00855FBB233A2C2B004DCDE8 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = NeoniOSDemo/TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		00855FBC233A2C2B004DCDE8 /* NeonImagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeonImagesHandler.swift; path = NeoniOSDemo/NeonImagesHandler.swift; sourceTree = "<group>"; };
+		00855FBD233A2C2B004DCDE8 /* CustomParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomParameters.swift; path = NeoniOSDemo/CustomParameters.swift; sourceTree = "<group>"; };
+		00855FBE233A2C2C004DCDE8 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = NeoniOSDemo/TOCropView.m; sourceTree = "<group>"; };
+		00855FBF233A2C2C004DCDE8 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "NeoniOSDemo/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		00855FC0233A2C2C004DCDE8 /* IParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IParam.swift; path = NeoniOSDemo/IParam.swift; sourceTree = "<group>"; };
+		00855FC1233A2C2C004DCDE8 /* TOCropViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = NeoniOSDemo/TOCropViewConstants.h; sourceTree = "<group>"; };
+		00855FC2233A2C2C004DCDE8 /* CameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraType.swift; path = NeoniOSDemo/CameraType.swift; sourceTree = "<group>"; };
+		00855FC3233A2C2C004DCDE8 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = NeoniOSDemo/CropViewController.swift; sourceTree = "<group>"; };
+		00855FC4233A2C2C004DCDE8 /* MyImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyImageCell.swift; path = NeoniOSDemo/MyImageCell.swift; sourceTree = "<group>"; };
+		00855FC5233A2C2C004DCDE8 /* FileInfoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileInfoCollection.swift; path = NeoniOSDemo/FileInfoCollection.swift; sourceTree = "<group>"; };
+		00855FC6233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = NeoniOSDemo/TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		00855FC7233A2C2D004DCDE8 /* imgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imgCollectionViewCell.swift; path = NeoniOSDemo/imgCollectionViewCell.swift; sourceTree = "<group>"; };
+		00855FC8233A2C2D004DCDE8 /* LivePhotosListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivePhotosListener.swift; path = NeoniOSDemo/LivePhotosListener.swift; sourceTree = "<group>"; };
+		00855FC9233A2C2D004DCDE8 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = NeoniOSDemo/CropViewController.h; sourceTree = "<group>"; };
+		00855FCA233A2C2D004DCDE8 /* INeutralParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = INeutralParam.swift; path = NeoniOSDemo/INeutralParam.swift; sourceTree = "<group>"; };
+		00855FCB233A2C2D004DCDE8 /* OpenNeutralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenNeutralViewController.swift; path = NeoniOSDemo/OpenNeutralViewController.swift; sourceTree = "<group>"; };
+		00855FCC233A2C2D004DCDE8 /* PhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosModel.swift; path = NeoniOSDemo/PhotosModel.swift; sourceTree = "<group>"; };
+		00855FCD233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = NeoniOSDemo/TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		00855FCE233A2C2D004DCDE8 /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerRootViewController.swift; path = NeoniOSDemo/OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
+		00855FCF233A2C2E004DCDE8 /* GalleryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryType.swift; path = NeoniOSDemo/GalleryType.swift; sourceTree = "<group>"; };
+		00855FD0233A2C2E004DCDE8 /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerCollectionViewLayout.swift; path = NeoniOSDemo/OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		00855FD1233A2C2E004DCDE8 /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePickerCollectionViewCell.swift; path = NeoniOSDemo/ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		00855FD2233A2C2E004DCDE8 /* CameraFacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraFacing.swift; path = NeoniOSDemo/CameraFacing.swift; sourceTree = "<group>"; };
+		00855FD3233A2C2E004DCDE8 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = NeoniOSDemo/TOCropToolbar.h; sourceTree = "<group>"; };
+		00855FD4233A2C2E004DCDE8 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = NeoniOSDemo/TOCropView.h; sourceTree = "<group>"; };
+		00855FD5233A2C2E004DCDE8 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serializable.swift; path = NeoniOSDemo/Serializable.swift; sourceTree = "<group>"; };
+		00855FD6233A2C2E004DCDE8 /* LivePhotoNextTagListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivePhotoNextTagListener.swift; path = NeoniOSDemo/LivePhotoNextTagListener.swift; sourceTree = "<group>"; };
+		00855FD7233A2C2E004DCDE8 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = NeoniOSDemo/TOCropOverlayView.m; sourceTree = "<group>"; };
+		00855FD8233A2C2F004DCDE8 /* GetLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetLocation.swift; path = NeoniOSDemo/GetLocation.swift; sourceTree = "<group>"; };
+		00855FD9233A2C2F004DCDE8 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = NeoniOSDemo/TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		00855FDA233A2C2F004DCDE8 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "NeoniOSDemo/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		00855FDB233A2C2F004DCDE8 /* NeonResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeonResponse.swift; path = NeoniOSDemo/NeonResponse.swift; sourceTree = "<group>"; };
+		00855FDC233A2C2F004DCDE8 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = NeoniOSDemo/CameraViewController.swift; sourceTree = "<group>"; };
+		00855FDD233A2C2F004DCDE8 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Helper.swift"; path = "NeoniOSDemo/UIView+Helper.swift"; sourceTree = "<group>"; };
+		00855FDE233A2C2F004DCDE8 /* FileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileInfo.swift; path = NeoniOSDemo/FileInfo.swift; sourceTree = "<group>"; };
+		00855FDF233A2C2F004DCDE8 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryModel.swift; path = NeoniOSDemo/GalleryModel.swift; sourceTree = "<group>"; };
+		00855FE0233A2C2F004DCDE8 /* ResponseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseCode.swift; path = NeoniOSDemo/ResponseCode.swift; sourceTree = "<group>"; };
+		00855FE1233A2C2F004DCDE8 /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeInterval+String.swift"; path = "NeoniOSDemo/TimeInterval+String.swift"; sourceTree = "<group>"; };
+		00855FE2233A2C30004DCDE8 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = NeoniOSDemo/TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		00855FE3233A2C30004DCDE8 /* SelectImageTagController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectImageTagController.swift; path = NeoniOSDemo/SelectImageTagController.swift; sourceTree = "<group>"; };
+		00855FE4233A2C30004DCDE8 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = NeoniOSDemo/TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		00855FE5233A2C30004DCDE8 /* OnImageCollectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnImageCollectionListener.swift; path = NeoniOSDemo/OnImageCollectionListener.swift; sourceTree = "<group>"; };
+		00855FE6233A2C30004DCDE8 /* SaveImageInGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveImageInGallery.swift; path = NeoniOSDemo/SaveImageInGallery.swift; sourceTree = "<group>"; };
+		00855FE7233A2C30004DCDE8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = NeoniOSDemo/ViewController.swift; sourceTree = "<group>"; };
+		00855FE8233A2C30004DCDE8 /* ImageTagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageTagModel.swift; path = NeoniOSDemo/ImageTagModel.swift; sourceTree = "<group>"; };
+		00855FE9233A2C30004DCDE8 /* FlashMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashMode.swift; path = NeoniOSDemo/FlashMode.swift; sourceTree = "<group>"; };
+		00855FEA233A2C30004DCDE8 /* LibraryMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryMode.swift; path = NeoniOSDemo/LibraryMode.swift; sourceTree = "<group>"; };
+		00855FEB233A2C30004DCDE8 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = NeoniOSDemo/TOCropOverlayView.h; sourceTree = "<group>"; };
+		00855FEC233A2C31004DCDE8 /* NeutralModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeutralModel.swift; path = NeoniOSDemo/NeutralModel.swift; sourceTree = "<group>"; };
+		00855FED233A2C31004DCDE8 /* ShowImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowImageViewController.swift; path = NeoniOSDemo/ShowImageViewController.swift; sourceTree = "<group>"; };
+		00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerConfiguration.swift; path = NeoniOSDemo/OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,11 +194,71 @@
 		001658FF23340F2D00A83EF0 = {
 			isa = PBXGroup;
 			children = (
-				0016596A23340FD000A83EF0 /* Categories */,
-				0016591423340FCF00A83EF0 /* Constants */,
-				0016592423340FCF00A83EF0 /* Controllers */,
-				0016593B23340FCF00A83EF0 /* Models */,
-				0016596923340FD000A83EF0 /* NeoniOS.h */,
+				00855FB8233A2C2B004DCDE8 /* Bundle+Helper.swift */,
+				00855FD2233A2C2E004DCDE8 /* CameraFacing.swift */,
+				00855FB3233A2C2B004DCDE8 /* CameraModel.swift */,
+				00855FB1233A2C2A004DCDE8 /* CameraOnlyViewController.swift */,
+				00855FBA233A2C2B004DCDE8 /* CameraOrientation.swift */,
+				00855FC2233A2C2C004DCDE8 /* CameraType.swift */,
+				00855FDC233A2C2F004DCDE8 /* CameraViewController.swift */,
+				00855FB6233A2C2B004DCDE8 /* Configure.swift */,
+				00855FC9233A2C2D004DCDE8 /* CropViewController.h */,
+				00855FC3233A2C2C004DCDE8 /* CropViewController.swift */,
+				00855FBD233A2C2B004DCDE8 /* CustomParameters.swift */,
+				00855FDE233A2C2F004DCDE8 /* FileInfo.swift */,
+				00855FC5233A2C2C004DCDE8 /* FileInfoCollection.swift */,
+				00855FE9233A2C30004DCDE8 /* FlashMode.swift */,
+				00855FDF233A2C2F004DCDE8 /* GalleryModel.swift */,
+				00855FCF233A2C2E004DCDE8 /* GalleryType.swift */,
+				00855FD8233A2C2F004DCDE8 /* GetLocation.swift */,
+				00855FB2233A2C2A004DCDE8 /* ICameraParam.swift */,
+				00855FB0233A2C2A004DCDE8 /* IGalleryParam.swift */,
+				00855FD1233A2C2E004DCDE8 /* ImagePickerCollectionViewCell.swift */,
+				00855FE8233A2C30004DCDE8 /* ImageTagModel.swift */,
+				00855FC7233A2C2D004DCDE8 /* imgCollectionViewCell.swift */,
+				00855FCA233A2C2D004DCDE8 /* INeutralParam.swift */,
+				00855FC0233A2C2C004DCDE8 /* IParam.swift */,
+				00855FEA233A2C30004DCDE8 /* LibraryMode.swift */,
+				00855FD6233A2C2E004DCDE8 /* LivePhotoNextTagListener.swift */,
+				00855FC8233A2C2D004DCDE8 /* LivePhotosListener.swift */,
+				00855FC4233A2C2C004DCDE8 /* MyImageCell.swift */,
+				00855FBC233A2C2B004DCDE8 /* NeonImagesHandler.swift */,
+				00855FDB233A2C2F004DCDE8 /* NeonResponse.swift */,
+				00855FEC233A2C31004DCDE8 /* NeutralModel.swift */,
+				00855FE5233A2C30004DCDE8 /* OnImageCollectionListener.swift */,
+				00855FD0233A2C2E004DCDE8 /* OpalImagePickerCollectionViewLayout.swift */,
+				00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */,
+				00855FAE233A2C2A004DCDE8 /* OpalImagePickerController.swift */,
+				00855FCE233A2C2D004DCDE8 /* OpalImagePickerRootViewController.swift */,
+				00855FCB233A2C2D004DCDE8 /* OpenNeutralViewController.swift */,
+				00855FCC233A2C2D004DCDE8 /* PhotosModel.swift */,
+				00855FE0233A2C2F004DCDE8 /* ResponseCode.swift */,
+				00855FE6233A2C30004DCDE8 /* SaveImageInGallery.swift */,
+				00855FE3233A2C30004DCDE8 /* SelectImageTagController.swift */,
+				00855FB5233A2C2B004DCDE8 /* SelectImgCameraCollectionViewCell.swift */,
+				00855FD5233A2C2E004DCDE8 /* Serializable.swift */,
+				00855FED233A2C31004DCDE8 /* ShowImageViewController.swift */,
+				00855FE1233A2C2F004DCDE8 /* TimeInterval+String.swift */,
+				00855FE4233A2C30004DCDE8 /* TOActivityCroppedImageProvider.h */,
+				00855FD9233A2C2F004DCDE8 /* TOActivityCroppedImageProvider.m */,
+				00855FEB233A2C30004DCDE8 /* TOCropOverlayView.h */,
+				00855FD7233A2C2E004DCDE8 /* TOCropOverlayView.m */,
+				00855FBB233A2C2B004DCDE8 /* TOCroppedImageAttributes.h */,
+				00855FE2233A2C30004DCDE8 /* TOCroppedImageAttributes.m */,
+				00855FAF233A2C2A004DCDE8 /* TOCropScrollView.h */,
+				00855FB9233A2C2B004DCDE8 /* TOCropScrollView.m */,
+				00855FD3233A2C2E004DCDE8 /* TOCropToolbar.h */,
+				00855FB7233A2C2B004DCDE8 /* TOCropToolbar.m */,
+				00855FD4233A2C2E004DCDE8 /* TOCropView.h */,
+				00855FBE233A2C2C004DCDE8 /* TOCropView.m */,
+				00855FC1233A2C2C004DCDE8 /* TOCropViewConstants.h */,
+				00855FCD233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.h */,
+				00855FC6233A2C2D004DCDE8 /* TOCropViewControllerTransitioning.m */,
+				00855FDA233A2C2F004DCDE8 /* UIImage+CropRotate.h */,
+				00855FBF233A2C2C004DCDE8 /* UIImage+CropRotate.m */,
+				00855FDD233A2C2F004DCDE8 /* UIView+Helper.swift */,
+				00855FB4233A2C2B004DCDE8 /* UIViewController+OpalImagePicker.swift */,
+				00855FE7233A2C30004DCDE8 /* ViewController.swift */,
 				0016594B23340FCF00A83EF0 /* Resources */,
 				0016591623340FCF00A83EF0 /* Views */,
 				0016590B23340F2D00A83EF0 /* NeoniOSDemo */,
@@ -225,135 +283,13 @@
 			path = NeoniOSDemo;
 			sourceTree = "<group>";
 		};
-		0016591423340FCF00A83EF0 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				0016591523340FCF00A83EF0 /* TOCropViewConstants.h */,
-			);
-			name = Constants;
-			path = NeoniOSDemo/Constants;
-			sourceTree = "<group>";
-		};
 		0016591623340FCF00A83EF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0016591723340FCF00A83EF0 /* NeonImageCollectionCell */,
-				0016591923340FCF00A83EF0 /* CropViews */,
 				0016592223340FCF00A83EF0 /* Main.storyboard */,
 			);
 			name = Views;
 			path = NeoniOSDemo/Views;
-			sourceTree = "<group>";
-		};
-		0016591723340FCF00A83EF0 /* NeonImageCollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-				0016591823340FCF00A83EF0 /* MyImageCell.swift */,
-			);
-			path = NeonImageCollectionCell;
-			sourceTree = "<group>";
-		};
-		0016591923340FCF00A83EF0 /* CropViews */ = {
-			isa = PBXGroup;
-			children = (
-				0016591A23340FCF00A83EF0 /* TOCropView.h */,
-				0016591B23340FCF00A83EF0 /* TOCropOverlayView.h */,
-				0016591C23340FCF00A83EF0 /* TOCropToolbar.h */,
-				0016591D23340FCF00A83EF0 /* TOCropScrollView.m */,
-				0016591E23340FCF00A83EF0 /* TOCropView.m */,
-				0016591F23340FCF00A83EF0 /* TOCropOverlayView.m */,
-				0016592023340FCF00A83EF0 /* TOCropToolbar.m */,
-				0016592123340FCF00A83EF0 /* TOCropScrollView.h */,
-			);
-			path = CropViews;
-			sourceTree = "<group>";
-		};
-		0016592423340FCF00A83EF0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0016592523340FCF00A83EF0 /* OpalImagePicker */,
-				0016592F23340FCF00A83EF0 /* CropViewController */,
-				0016593223340FCF00A83EF0 /* ViewController */,
-			);
-			name = Controllers;
-			path = NeoniOSDemo/Controllers;
-			sourceTree = "<group>";
-		};
-		0016592523340FCF00A83EF0 /* OpalImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				0016592623340FCF00A83EF0 /* OpalImagePickerRootViewController.swift */,
-				0016592723340FCF00A83EF0 /* Bundle+Helper.swift */,
-				0016592823340FCF00A83EF0 /* OpalImagePickerController.swift */,
-				0016592923340FCF00A83EF0 /* OpalImagePickerConfiguration.swift */,
-				0016592A23340FCF00A83EF0 /* UIView+Helper.swift */,
-				0016592B23340FCF00A83EF0 /* ImagePickerCollectionViewCell.swift */,
-				0016592C23340FCF00A83EF0 /* UIViewController+OpalImagePicker.swift */,
-				0016592D23340FCF00A83EF0 /* TimeInterval+String.swift */,
-				0016592E23340FCF00A83EF0 /* OpalImagePickerCollectionViewLayout.swift */,
-			);
-			path = OpalImagePicker;
-			sourceTree = "<group>";
-		};
-		0016592F23340FCF00A83EF0 /* CropViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0016593023340FCF00A83EF0 /* CropViewController.h */,
-				0016593123340FCF00A83EF0 /* CropViewController.swift */,
-			);
-			path = CropViewController;
-			sourceTree = "<group>";
-		};
-		0016593223340FCF00A83EF0 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0016593323340FCF00A83EF0 /* ViewController.swift */,
-				0016593423340FCF00A83EF0 /* SelectImageTagController.swift */,
-				0016593523340FCF00A83EF0 /* SelectImgCameraCollectionViewCell.swift */,
-				0016593623340FCF00A83EF0 /* imgCollectionViewCell.swift */,
-				0016593723340FCF00A83EF0 /* ShowImageViewController.swift */,
-				0016593823340FCF00A83EF0 /* CameraViewController.swift */,
-				0016593923340FCF00A83EF0 /* CameraOnlyViewController.swift */,
-				0016593A23340FCF00A83EF0 /* OpenNeutralViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		0016593B23340FCF00A83EF0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				0016593C23340FCF00A83EF0 /* CropModel */,
-				0016594323340FCF00A83EF0 /* Model */,
-			);
-			name = Models;
-			path = NeoniOSDemo/Models;
-			sourceTree = "<group>";
-		};
-		0016593C23340FCF00A83EF0 /* CropModel */ = {
-			isa = PBXGroup;
-			children = (
-				0016593D23340FCF00A83EF0 /* TOActivityCroppedImageProvider.m */,
-				0016593E23340FCF00A83EF0 /* TOCropViewControllerTransitioning.m */,
-				0016593F23340FCF00A83EF0 /* TOCroppedImageAttributes.m */,
-				0016594023340FCF00A83EF0 /* TOActivityCroppedImageProvider.h */,
-				0016594123340FCF00A83EF0 /* TOCropViewControllerTransitioning.h */,
-				0016594223340FCF00A83EF0 /* TOCroppedImageAttributes.h */,
-			);
-			path = CropModel;
-			sourceTree = "<group>";
-		};
-		0016594323340FCF00A83EF0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0016594423340FCF00A83EF0 /* ImageTagModel.swift */,
-				0016594523340FCF00A83EF0 /* PhotosModel.swift */,
-				0016594623340FCF00A83EF0 /* Configure.swift */,
-				0016594723340FCF00A83EF0 /* NeonResponse.swift */,
-				0016594823340FCF00A83EF0 /* NeutralModel.swift */,
-				0016594923340FCF00A83EF0 /* CameraModel.swift */,
-				0016594A23340FCF00A83EF0 /* GalleryModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		0016594B23340FCF00A83EF0 /* Resources */ = {
@@ -368,69 +304,6 @@
 			path = NeoniOSDemo/Resources;
 			sourceTree = "<group>";
 		};
-		0016596A23340FD000A83EF0 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				0016596B23340FD000A83EF0 /* Enumerations */,
-				0016597323340FD000A83EF0 /* util */,
-				0016597A23340FD000A83EF0 /* Crop */,
-				0016597D23340FD000A83EF0 /* Protocols */,
-			);
-			name = Categories;
-			path = NeoniOSDemo/Categories;
-			sourceTree = "<group>";
-		};
-		0016596B23340FD000A83EF0 /* Enumerations */ = {
-			isa = PBXGroup;
-			children = (
-				0016596C23340FD000A83EF0 /* CameraFacing.swift */,
-				0016596D23340FD000A83EF0 /* FlashMode.swift */,
-				0016596E23340FD000A83EF0 /* ResponseCode.swift */,
-				0016596F23340FD000A83EF0 /* GalleryType.swift */,
-				0016597023340FD000A83EF0 /* CameraOrientation.swift */,
-				0016597123340FD000A83EF0 /* LibraryMode.swift */,
-				0016597223340FD000A83EF0 /* CameraType.swift */,
-			);
-			path = Enumerations;
-			sourceTree = "<group>";
-		};
-		0016597323340FD000A83EF0 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				0016597423340FD000A83EF0 /* GetLocation.swift */,
-				0016597523340FD000A83EF0 /* FileInfoCollection.swift */,
-				0016597623340FD000A83EF0 /* NeonImagesHandler.swift */,
-				0016597723340FD000A83EF0 /* SaveImageInGallery.swift */,
-				0016597823340FD000A83EF0 /* CustomParameters.swift */,
-				0016597923340FD000A83EF0 /* FileInfo.swift */,
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
-		0016597A23340FD000A83EF0 /* Crop */ = {
-			isa = PBXGroup;
-			children = (
-				0016597B23340FD000A83EF0 /* UIImage+CropRotate.m */,
-				0016597C23340FD000A83EF0 /* UIImage+CropRotate.h */,
-			);
-			path = Crop;
-			sourceTree = "<group>";
-		};
-		0016597D23340FD000A83EF0 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				0016597E23340FD000A83EF0 /* LivePhotoNextTagListener.swift */,
-				0016597F23340FD000A83EF0 /* Serializable.swift */,
-				0016598023340FD000A83EF0 /* LivePhotosListener.swift */,
-				0016598123340FD000A83EF0 /* IParam.swift */,
-				0016598223340FD000A83EF0 /* INeutralParam.swift */,
-				0016598323340FD000A83EF0 /* ICameraParam.swift */,
-				0016598423340FD000A83EF0 /* IGalleryParam.swift */,
-				0016598523340FD000A83EF0 /* OnImageCollectionListener.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -438,19 +311,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001659A923340FD000A83EF0 /* TOCroppedImageAttributes.h in Headers */,
-				0016598623340FD000A83EF0 /* TOCropViewConstants.h in Headers */,
-				0016598F23340FD000A83EF0 /* TOCropScrollView.h in Headers */,
-				001659A723340FD000A83EF0 /* TOActivityCroppedImageProvider.h in Headers */,
-				0016599A23340FD000A83EF0 /* CropViewController.h in Headers */,
-				0016598923340FD000A83EF0 /* TOCropOverlayView.h in Headers */,
 				0016590E23340F2D00A83EF0 /* NeoniOSDemo.h in Headers */,
-				001659A823340FD000A83EF0 /* TOCropViewControllerTransitioning.h in Headers */,
-				0016598823340FD000A83EF0 /* TOCropView.h in Headers */,
+				00856002233A2C31004DCDE8 /* TOCropViewConstants.h in Headers */,
+				00856015233A2C31004DCDE8 /* TOCropView.h in Headers */,
+				00855FF0233A2C31004DCDE8 /* TOCropScrollView.h in Headers */,
+				0085600A233A2C31004DCDE8 /* CropViewController.h in Headers */,
+				0085602C233A2C31004DCDE8 /* TOCropOverlayView.h in Headers */,
+				0085601B233A2C31004DCDE8 /* UIImage+CropRotate.h in Headers */,
+				00855FFC233A2C31004DCDE8 /* TOCroppedImageAttributes.h in Headers */,
 				001659B423340FD000A83EF0 /* Neon-Ios-Bridging-Header.h in Headers */,
-				001659C423340FD000A83EF0 /* UIImage+CropRotate.h in Headers */,
-				001659B523340FD000A83EF0 /* NeoniOS.h in Headers */,
-				0016598A23340FD000A83EF0 /* TOCropToolbar.h in Headers */,
+				00856025233A2C31004DCDE8 /* TOActivityCroppedImageProvider.h in Headers */,
+				0085600E233A2C31004DCDE8 /* TOCropViewControllerTransitioning.h in Headers */,
+				00856014233A2C31004DCDE8 /* TOCropToolbar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +358,7 @@
 				TargetAttributes = {
 					0016590823340F2D00A83EF0 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -549,61 +422,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001659C323340FD000A83EF0 /* UIImage+CropRotate.m in Sources */,
-				0016599D23340FD000A83EF0 /* SelectImageTagController.swift in Sources */,
-				0016598C23340FD000A83EF0 /* TOCropView.m in Sources */,
-				0016599423340FD000A83EF0 /* OpalImagePickerConfiguration.swift in Sources */,
-				001659BF23340FD000A83EF0 /* NeonImagesHandler.swift in Sources */,
-				001659A523340FD000A83EF0 /* TOCropViewControllerTransitioning.m in Sources */,
-				0016598B23340FD000A83EF0 /* TOCropScrollView.m in Sources */,
-				0016599823340FD000A83EF0 /* TimeInterval+String.swift in Sources */,
-				001659BC23340FD000A83EF0 /* CameraType.swift in Sources */,
-				001659CC23340FD000A83EF0 /* OnImageCollectionListener.swift in Sources */,
-				001659AF23340FD000A83EF0 /* CameraModel.swift in Sources */,
-				0016599923340FD000A83EF0 /* OpalImagePickerCollectionViewLayout.swift in Sources */,
-				0016599123340FD000A83EF0 /* OpalImagePickerRootViewController.swift in Sources */,
-				001659BA23340FD000A83EF0 /* CameraOrientation.swift in Sources */,
-				001659C023340FD000A83EF0 /* SaveImageInGallery.swift in Sources */,
-				001659AD23340FD000A83EF0 /* NeonResponse.swift in Sources */,
-				0016599523340FD000A83EF0 /* UIView+Helper.swift in Sources */,
-				001659A323340FD000A83EF0 /* OpenNeutralViewController.swift in Sources */,
-				0016599323340FD000A83EF0 /* OpalImagePickerController.swift in Sources */,
-				001659AE23340FD000A83EF0 /* NeutralModel.swift in Sources */,
-				0016599E23340FD000A83EF0 /* SelectImgCameraCollectionViewCell.swift in Sources */,
-				001659C523340FD000A83EF0 /* LivePhotoNextTagListener.swift in Sources */,
-				0016599723340FD000A83EF0 /* UIViewController+OpalImagePicker.swift in Sources */,
-				001659B723340FD000A83EF0 /* FlashMode.swift in Sources */,
-				001659A423340FD000A83EF0 /* TOActivityCroppedImageProvider.m in Sources */,
-				001659AB23340FD000A83EF0 /* PhotosModel.swift in Sources */,
-				001659A223340FD000A83EF0 /* CameraOnlyViewController.swift in Sources */,
-				001659B023340FD000A83EF0 /* GalleryModel.swift in Sources */,
-				001659AA23340FD000A83EF0 /* ImageTagModel.swift in Sources */,
-				001659A123340FD000A83EF0 /* CameraViewController.swift in Sources */,
-				001659C123340FD000A83EF0 /* CustomParameters.swift in Sources */,
-				001659B823340FD000A83EF0 /* ResponseCode.swift in Sources */,
-				001659C923340FD000A83EF0 /* INeutralParam.swift in Sources */,
-				001659B923340FD000A83EF0 /* GalleryType.swift in Sources */,
-				0016598D23340FD000A83EF0 /* TOCropOverlayView.m in Sources */,
-				001659C823340FD000A83EF0 /* IParam.swift in Sources */,
-				001659C223340FD000A83EF0 /* FileInfo.swift in Sources */,
-				001659CA23340FD000A83EF0 /* ICameraParam.swift in Sources */,
-				0016598723340FD000A83EF0 /* MyImageCell.swift in Sources */,
-				001659C623340FD000A83EF0 /* Serializable.swift in Sources */,
-				001659BD23340FD000A83EF0 /* GetLocation.swift in Sources */,
-				0016599B23340FD000A83EF0 /* CropViewController.swift in Sources */,
-				0016599223340FD000A83EF0 /* Bundle+Helper.swift in Sources */,
-				001659B623340FD000A83EF0 /* CameraFacing.swift in Sources */,
-				001659C723340FD000A83EF0 /* LivePhotosListener.swift in Sources */,
-				0016598E23340FD000A83EF0 /* TOCropToolbar.m in Sources */,
-				001659A623340FD000A83EF0 /* TOCroppedImageAttributes.m in Sources */,
-				0016599C23340FD000A83EF0 /* ViewController.swift in Sources */,
-				001659BB23340FD000A83EF0 /* LibraryMode.swift in Sources */,
-				0016599F23340FD000A83EF0 /* imgCollectionViewCell.swift in Sources */,
-				0016599623340FD000A83EF0 /* ImagePickerCollectionViewCell.swift in Sources */,
-				001659CB23340FD000A83EF0 /* IGalleryParam.swift in Sources */,
-				001659BE23340FD000A83EF0 /* FileInfoCollection.swift in Sources */,
-				001659AC23340FD000A83EF0 /* Configure.swift in Sources */,
-				001659A023340FD000A83EF0 /* ShowImageViewController.swift in Sources */,
+				00856021233A2C31004DCDE8 /* ResponseCode.swift in Sources */,
+				00856004233A2C31004DCDE8 /* CropViewController.swift in Sources */,
+				0085602D233A2C31004DCDE8 /* NeutralModel.swift in Sources */,
+				00856005233A2C31004DCDE8 /* MyImageCell.swift in Sources */,
+				0085600B233A2C31004DCDE8 /* INeutralParam.swift in Sources */,
+				00856028233A2C31004DCDE8 /* ViewController.swift in Sources */,
+				00855FF5233A2C31004DCDE8 /* UIViewController+OpalImagePicker.swift in Sources */,
+				00856011233A2C31004DCDE8 /* OpalImagePickerCollectionViewLayout.swift in Sources */,
+				00855FF3233A2C31004DCDE8 /* ICameraParam.swift in Sources */,
+				00856026233A2C31004DCDE8 /* OnImageCollectionListener.swift in Sources */,
+				00856016233A2C31004DCDE8 /* Serializable.swift in Sources */,
+				00855FF8233A2C31004DCDE8 /* TOCropToolbar.m in Sources */,
+				00855FF9233A2C31004DCDE8 /* Bundle+Helper.swift in Sources */,
+				0085602E233A2C31004DCDE8 /* ShowImageViewController.swift in Sources */,
+				00856019233A2C31004DCDE8 /* GetLocation.swift in Sources */,
+				00856020233A2C31004DCDE8 /* GalleryModel.swift in Sources */,
+				00855FF2233A2C31004DCDE8 /* CameraOnlyViewController.swift in Sources */,
+				00855FF4233A2C31004DCDE8 /* CameraModel.swift in Sources */,
+				00855FFF233A2C31004DCDE8 /* TOCropView.m in Sources */,
+				0085600F233A2C31004DCDE8 /* OpalImagePickerRootViewController.swift in Sources */,
+				00855FF7233A2C31004DCDE8 /* Configure.swift in Sources */,
+				0085602A233A2C31004DCDE8 /* FlashMode.swift in Sources */,
+				00856012233A2C31004DCDE8 /* ImagePickerCollectionViewCell.swift in Sources */,
+				0085601C233A2C31004DCDE8 /* NeonResponse.swift in Sources */,
+				0085601D233A2C31004DCDE8 /* CameraViewController.swift in Sources */,
+				0085602F233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift in Sources */,
+				00855FFA233A2C31004DCDE8 /* TOCropScrollView.m in Sources */,
+				00855FFE233A2C31004DCDE8 /* CustomParameters.swift in Sources */,
+				00855FF1233A2C31004DCDE8 /* IGalleryParam.swift in Sources */,
+				00856018233A2C31004DCDE8 /* TOCropOverlayView.m in Sources */,
+				0085600C233A2C31004DCDE8 /* OpenNeutralViewController.swift in Sources */,
+				00856010233A2C31004DCDE8 /* GalleryType.swift in Sources */,
+				00855FEF233A2C31004DCDE8 /* OpalImagePickerController.swift in Sources */,
+				00856009233A2C31004DCDE8 /* LivePhotosListener.swift in Sources */,
+				00855FF6233A2C31004DCDE8 /* SelectImgCameraCollectionViewCell.swift in Sources */,
+				0085601F233A2C31004DCDE8 /* FileInfo.swift in Sources */,
+				00856023233A2C31004DCDE8 /* TOCroppedImageAttributes.m in Sources */,
+				0085602B233A2C31004DCDE8 /* LibraryMode.swift in Sources */,
+				00856007233A2C31004DCDE8 /* TOCropViewControllerTransitioning.m in Sources */,
+				0085601A233A2C31004DCDE8 /* TOActivityCroppedImageProvider.m in Sources */,
+				00856017233A2C31004DCDE8 /* LivePhotoNextTagListener.swift in Sources */,
+				00855FFB233A2C31004DCDE8 /* CameraOrientation.swift in Sources */,
+				0085600D233A2C31004DCDE8 /* PhotosModel.swift in Sources */,
+				00856003233A2C31004DCDE8 /* CameraType.swift in Sources */,
+				00856008233A2C31004DCDE8 /* imgCollectionViewCell.swift in Sources */,
+				00856029233A2C31004DCDE8 /* ImageTagModel.swift in Sources */,
+				0085601E233A2C31004DCDE8 /* UIView+Helper.swift in Sources */,
+				00856022233A2C31004DCDE8 /* TimeInterval+String.swift in Sources */,
+				00856000233A2C31004DCDE8 /* UIImage+CropRotate.m in Sources */,
+				00856006233A2C31004DCDE8 /* FileInfoCollection.swift in Sources */,
+				00855FFD233A2C31004DCDE8 /* NeonImagesHandler.swift in Sources */,
+				00856027233A2C31004DCDE8 /* SaveImageInGallery.swift in Sources */,
+				00856013233A2C31004DCDE8 /* CameraFacing.swift in Sources */,
+				00856024233A2C31004DCDE8 /* SelectImageTagController.swift in Sources */,
+				00856001233A2C31004DCDE8 /* IParam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +651,7 @@
 		0016591223340F2D00A83EF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -794,6 +668,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -802,6 +677,7 @@
 		0016591323340F2D00A83EF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
