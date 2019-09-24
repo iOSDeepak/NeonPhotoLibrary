@@ -19,5 +19,6 @@ s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.frameworks = 'Foundation'
 s.public_header_files = 'NeoniOSDemo/*.h'
 s.swift_version = "5.0"
+s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
 
 end
