@@ -16,6 +16,7 @@ s.source = { :git => 'https://github.com/iOSDeepak/NeonSpecs.git',
              :tag => "#{s.version}" }
 s.source_files = "NeoniOSDemo/*.{swift,h,m}"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.frameworks = 'Foundation'
 s.swift_version = "5.0"
 
 end
