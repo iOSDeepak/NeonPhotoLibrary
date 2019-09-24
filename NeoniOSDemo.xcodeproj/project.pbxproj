@@ -263,6 +263,7 @@
 				00855FDD233A2C2F004DCDE8 /* UIView+Helper.swift */,
 				00855FB4233A2C2B004DCDE8 /* UIViewController+OpalImagePicker.swift */,
 				00855FE7233A2C30004DCDE8 /* ViewController.swift */,
+				0016590C23340F2D00A83EF0 /* NeoniOSDemo.h */,
 				0016594B23340FCF00A83EF0 /* Resources */,
 				0016591623340FCF00A83EF0 /* Views */,
 				0016590B23340F2D00A83EF0 /* NeoniOSDemo */,
@@ -281,7 +282,6 @@
 		0016590B23340F2D00A83EF0 /* NeoniOSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0016590C23340F2D00A83EF0 /* NeoniOSDemo.h */,
 				0016590D23340F2D00A83EF0 /* Info.plist */,
 			);
 			path = NeoniOSDemo;
