@@ -17,6 +17,7 @@ s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git',
 s.source_files = "NeoniOSDemo/**/*.{swift,h,m}"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.frameworks = 'Foundation'
+s.public_header_files = 'NeoniOSDemo/*.h'
 s.swift_version = "5.0"
 
 end
