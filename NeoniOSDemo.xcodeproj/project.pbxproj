@@ -180,6 +180,7 @@
 		00855FEE233A2C31004DCDE8 /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpalImagePickerConfiguration.swift; path = NeoniOSDemo/OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
 		00856030233A31AA004DCDE8 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = NeoniOSDemo/TOCropViewController.m; sourceTree = "<group>"; };
 		00856031233A31AA004DCDE8 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = NeoniOSDemo/TOCropViewController.h; sourceTree = "<group>"; };
+		00CEEF48233AA5C0006EE8CD /* NeonPhotoLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeonPhotoLibrary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +197,7 @@
 		001658FF23340F2D00A83EF0 = {
 			isa = PBXGroup;
 			children = (
+				00CEEF48233AA5C0006EE8CD /* NeonPhotoLibrary.h */,
 				00855FB8233A2C2B004DCDE8 /* Bundle+Helper.swift */,
 				00855FD2233A2C2E004DCDE8 /* CameraFacing.swift */,
 				00855FB3233A2C2B004DCDE8 /* CameraModel.swift */,
@@ -683,7 +685,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -713,7 +715,7 @@
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "NeoniOSDemo-swift.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
