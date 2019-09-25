@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NeoniOSDemo.xcodeproj">
+      location = "self:NeoniosDemo.xcodeproj">
    </FileRef>
 </Workspace>
