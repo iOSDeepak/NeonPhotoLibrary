@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TOCropViewController.h>
+//#import <TOCropViewController.h>
 
 //! Project version number for NeoniosDemo.
 FOUNDATION_EXPORT double NeoniosDemoVersionNumber;
