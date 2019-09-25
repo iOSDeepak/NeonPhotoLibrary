@@ -264,7 +264,6 @@
 				00B43BE0233B4737004A1069 /* UIImage+CropRotate.h */,
 				00B43BE1233B4737004A1069 /* TimeInterval+String.swift */,
 				00B43BE2233B4737004A1069 /* TOCropToolbar.m */,
-				00B43BE3233B4737004A1069 /* NeoniosDemo.h */,
 				00B43BE4233B4737004A1069 /* LibraryMode.swift */,
 				00B43BE5233B4737004A1069 /* OpalImagePickerCollectionViewLayout.swift */,
 				00B43BE6233B4737004A1069 /* CropViewController.swift */,
@@ -301,6 +300,7 @@
 				00B43B8B233B4737004A1069 /* Resources */,
 				00B43BA8233B4737004A1069 /* Source */,
 				91F3E343233B335800840179 /* Main.storyboard */,
+				00B43BE3233B4737004A1069 /* NeoniosDemo.h */,
 				91332902233A375400774D2C /* Info.plist */,
 			);
 			path = NeoniosDemo;

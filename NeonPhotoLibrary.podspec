@@ -18,6 +18,6 @@ s.source_files = "NeoniOSDemo/**/*.{swift,h,m}"
 
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.0"
-s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
+s.pod_target_xcconfig = { "SWIFT_VERSION" => "5.0" }
 
 end
