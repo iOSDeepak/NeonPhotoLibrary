@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B43B8A233B4610004A1069 /* NeoniosDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B43B89233B4610004A1069 /* NeoniosDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F3E2FF233B331B00840179 /* ImageTagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2BB233B331B00840179 /* ImageTagModel.swift */; };
 		91F3E300233B331B00840179 /* LivePhotoNextTagListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2BC233B331B00840179 /* LivePhotoNextTagListener.swift */; };
 		91F3E301233B331B00840179 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2BD233B331B00840179 /* TOActivityCroppedImageProvider.m */; };
@@ -65,7 +66,6 @@
 		91F3E336233B331B00840179 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F3E2F2233B331B00840179 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F3E337233B331B00840179 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2F3233B331B00840179 /* TimeInterval+String.swift */; };
 		91F3E338233B331B00840179 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2F4233B331B00840179 /* TOCropToolbar.m */; };
-		91F3E339233B331B00840179 /* NeoniosDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F3E2F5233B331B00840179 /* NeoniosDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F3E33A233B331B00840179 /* LibraryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2F6233B331B00840179 /* LibraryMode.swift */; };
 		91F3E33B233B331B00840179 /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2F7233B331B00840179 /* OpalImagePickerCollectionViewLayout.swift */; };
 		91F3E33C233B331B00840179 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3E2F8233B331B00840179 /* CropViewController.swift */; };
@@ -82,6 +82,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B43B89233B4610004A1069 /* NeoniosDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeoniosDemo.h; sourceTree = "<group>"; };
 		913328FE233A375400774D2C /* NeoniosDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeoniosDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91332902233A375400774D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91F3E2BB233B331B00840179 /* ImageTagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTagModel.swift; sourceTree = "<group>"; };
@@ -142,7 +143,6 @@
 		91F3E2F2233B331B00840179 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
 		91F3E2F3233B331B00840179 /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
 		91F3E2F4233B331B00840179 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
-		91F3E2F5233B331B00840179 /* NeoniosDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeoniosDemo.h; sourceTree = "<group>"; };
 		91F3E2F6233B331B00840179 /* LibraryMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryMode.swift; sourceTree = "<group>"; };
 		91F3E2F7233B331B00840179 /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
 		91F3E2F8233B331B00840179 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
@@ -215,7 +215,6 @@
 		91332900233A375400774D2C /* NeoniosDemo */ = {
 			isa = PBXGroup;
 			children = (
-				91F3E2F5233B331B00840179 /* NeoniosDemo.h */,
 				91F3E343233B335800840179 /* Main.storyboard */,
 				91332902233A375400774D2C /* Info.plist */,
 			);
@@ -225,6 +224,7 @@
 		91F3E2BA233B331B00840179 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				00B43B89233B4610004A1069 /* NeoniosDemo.h */,
 				91F3E2BB233B331B00840179 /* ImageTagModel.swift */,
 				91F3E2BC233B331B00840179 /* LivePhotoNextTagListener.swift */,
 				91F3E2BD233B331B00840179 /* TOActivityCroppedImageProvider.m */,
@@ -321,10 +321,10 @@
 				91F3E340233B331B00840179 /* TOCropViewController.h in Headers */,
 				91F3E334233B331B00840179 /* TOCropViewControllerTransitioning.h in Headers */,
 				91F3E336233B331B00840179 /* UIImage+CropRotate.h in Headers */,
-				91F3E339233B331B00840179 /* NeoniosDemo.h in Headers */,
 				91F3E320233B331B00840179 /* TOCropToolbar.h in Headers */,
 				91F3E303233B331B00840179 /* TOCropView.h in Headers */,
 				91F3E313233B331B00840179 /* CropViewController.h in Headers */,
+				00B43B8A233B4610004A1069 /* NeoniosDemo.h in Headers */,
 				91F3E317233B331B00840179 /* TOCropOverlayView.h in Headers */,
 				91F3E30F233B331B00840179 /* TOCropViewConstants.h in Headers */,
 			);
