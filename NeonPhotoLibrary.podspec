@@ -14,7 +14,7 @@ s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 s.homepage = "https://github.com/iOSDeepak/NeonPhotoLibrary"
 s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git', 
              :tag => "#{s.version}" }
-s.source_files = "NeoniOSDemo/*.{swift,h,m}"
+s.source_files = "NeoniOSDemo/**/*.{swift,h,m}"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.0"
 s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
