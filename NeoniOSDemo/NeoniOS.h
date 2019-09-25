@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double NeoniOSVersionNumber;
 //! Project version string for NeoniOS.
 FOUNDATION_EXPORT const unsigned char NeoniOSVersionString[];
 
+#import <NeoniOS/TOCropViewController.h>
+
 // In this header, you should import all the public headers of your framework using statements like #import <NeoniOS/PublicHeader.h>
 
 
