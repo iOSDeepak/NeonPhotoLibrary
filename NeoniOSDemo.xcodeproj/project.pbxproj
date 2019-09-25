@@ -186,7 +186,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0016590623340F2D00A83EF0 /* Frameworks */ = {
+		00B43C3D233B6766004A1069 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,7 +197,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001658FF23340F2D00A83EF0 = {
+		00B43C36233B6766004A1069 = {
 			isa = PBXGroup;
 			children = (
 				0016594B23340FCF00A83EF0 /* Resources */,
@@ -207,15 +207,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		0016590A23340F2D00A83EF0 /* Products */ = {
+		00B43C41233B6766004A1069 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0016590923340F2D00A83EF0 /* NeoniOSDemo.framework */,
+				00B43C40233B6766004A1069 /* NeoniosDemo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0016590B23340F2D00A83EF0 /* NeoniOSDemo */ = {
+		00B43C42233B6766004A1069 /* NeoniosDemo */ = {
 			isa = PBXGroup;
 			children = (
 				00CEEFA5233B23EC006EE8CD /* Bundle+Helper.swift */,
@@ -289,33 +289,22 @@
 				00CEEFC5233B23EE006EE8CD /* ViewController.swift */,
 				0016590D23340F2D00A83EF0 /* Info.plist */,
 			);
-			path = NeoniOSDemo;
+			path = NeoniosDemo;
 			sourceTree = "<group>";
 		};
-		0016591623340FCF00A83EF0 /* Views */ = {
+		00B43C4D233B754E004A1069 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0016592223340FCF00A83EF0 /* Main.storyboard */,
+				00B43C58233B754E004A1069 /* Assets.xcassets */,
+				00B43C60233B754E004A1069 /* drop-down-arrow.png */,
 			);
-			name = Views;
-			path = NeoniOSDemo/Views;
-			sourceTree = "<group>";
-		};
-		0016594B23340FCF00A83EF0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0016594C23340FCF00A83EF0 /* TOCropViewControllerLocalizable.strings */,
-				0016595623340FCF00A83EF0 /* Assets.xcassets */,
-				0016595D23340FCF00A83EF0 /* drop-down-arrow.png */,
-			);
-			name = Resources;
-			path = NeoniOSDemo/Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0016590423340F2D00A83EF0 /* Headers */ = {
+		00B43C3B233B6766004A1069 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,46 +327,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0016590823340F2D00A83EF0 /* NeoniOSDemo */ = {
+		00B43C3F233B6766004A1069 /* NeoniosDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0016591123340F2D00A83EF0 /* Build configuration list for PBXNativeTarget "NeoniOSDemo" */;
+			buildConfigurationList = 00B43C48233B6766004A1069 /* Build configuration list for PBXNativeTarget "NeoniosDemo" */;
 			buildPhases = (
-				0016590423340F2D00A83EF0 /* Headers */,
-				0016590523340F2D00A83EF0 /* Sources */,
-				0016590623340F2D00A83EF0 /* Frameworks */,
-				0016590723340F2D00A83EF0 /* Resources */,
+				00B43C3B233B6766004A1069 /* Headers */,
+				00B43C3C233B6766004A1069 /* Sources */,
+				00B43C3D233B6766004A1069 /* Frameworks */,
+				00B43C3E233B6766004A1069 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NeoniOSDemo;
-			productName = NeoniOSDemo;
-			productReference = 0016590923340F2D00A83EF0 /* NeoniOSDemo.framework */;
+			name = NeoniosDemo;
+			productName = NeoniosDemo;
+			productReference = 00B43C40233B6766004A1069 /* NeoniosDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0016590023340F2D00A83EF0 /* Project object */ = {
+		00B43C37233B6766004A1069 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = GirnarSoft;
 				TargetAttributes = {
-					0016590823340F2D00A83EF0 = {
+					00B43C3F233B6766004A1069 = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = 0016590323340F2D00A83EF0 /* Build configuration list for PBXProject "NeoniOSDemo" */;
+			buildConfigurationList = 00B43C3A233B6766004A1069 /* Build configuration list for PBXProject "NeoniosDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				de,
 				ar,
 				"zh-Hans",
@@ -387,6 +375,7 @@
 				it,
 				ms,
 				ko,
+				Base,
 				"zh-Hant",
 				"fa-IR",
 				hu,
@@ -402,32 +391,30 @@
 				pt,
 				ro,
 			);
-			mainGroup = 001658FF23340F2D00A83EF0;
-			productRefGroup = 0016590A23340F2D00A83EF0 /* Products */;
+			mainGroup = 00B43C36233B6766004A1069;
+			productRefGroup = 00B43C41233B6766004A1069 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0016590823340F2D00A83EF0 /* NeoniOSDemo */,
+				00B43C3F233B6766004A1069 /* NeoniosDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0016590723340F2D00A83EF0 /* Resources */ = {
+		00B43C3E233B6766004A1069 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001659B323340FD000A83EF0 /* drop-down-arrow.png in Resources */,
-				0016599023340FD000A83EF0 /* Main.storyboard in Resources */,
-				001659B223340FD000A83EF0 /* Assets.xcassets in Resources */,
-				001659B123340FD000A83EF0 /* TOCropViewControllerLocalizable.strings in Resources */,
+				00B43C6C233B754E004A1069 /* Assets.xcassets in Resources */,
+				00B43C6E233B754E004A1069 /* drop-down-arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0016590523340F2D00A83EF0 /* Sources */ = {
+		00B43C3C233B6766004A1069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,55 +479,11 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0016592223340FCF00A83EF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0016592323340FCF00A83EF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0016594C23340FCF00A83EF0 /* TOCropViewControllerLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0016594D23340FCF00A83EF0 /* de */,
-				0016594E23340FCF00A83EF0 /* ar */,
-				0016594F23340FCF00A83EF0 /* zh-Hans */,
-				0016595023340FCF00A83EF0 /* ja */,
-				0016595123340FCF00A83EF0 /* fa */,
-				0016595223340FCF00A83EF0 /* en */,
-				0016595323340FCF00A83EF0 /* es */,
-				0016595423340FCF00A83EF0 /* it */,
-				0016595523340FCF00A83EF0 /* ms */,
-				0016595723340FCF00A83EF0 /* ko */,
-				0016595823340FCF00A83EF0 /* Base */,
-				0016595923340FCF00A83EF0 /* zh-Hant */,
-				0016595A23340FCF00A83EF0 /* fa-IR */,
-				0016595B23340FCF00A83EF0 /* hu */,
-				0016595C23340FCF00A83EF0 /* da-DK */,
-				0016595E23340FCF00A83EF0 /* tr */,
-				0016595F23340FCF00A83EF0 /* pl */,
-				0016596023340FCF00A83EF0 /* vi */,
-				0016596123340FCF00A83EF0 /* ru */,
-				0016596223340FCF00A83EF0 /* fr */,
-				0016596323340FCF00A83EF0 /* fi */,
-				0016596423340FCF00A83EF0 /* id */,
-				0016596523340FCF00A83EF0 /* nl */,
-				0016596623340FCF00A83EF0 /* pt */,
-				0016596723340FCF00A83EF0 /* ro */,
-			);
-			name = TOCropViewControllerLocalizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		0016590F23340F2D00A83EF0 /* Debug */ = {
+		00B43C46233B6766004A1069 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -595,18 +538,16 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		0016591023340F2D00A83EF0 /* Release */ = {
+		00B43C47233B6766004A1069 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -654,7 +595,6 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,10 +602,9 @@
 			};
 			name = Release;
 		};
-		0016591223340F2D00A83EF0 /* Debug */ = {
+		00B43C49233B6766004A1069 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -673,30 +612,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NeoniOSDemo/Info.plist;
+				INFOPLIST_FILE = NeoniosDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "NeoniOSDemo-swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0016591323340F2D00A83EF0 /* Release */ = {
+		00B43C4A233B6766004A1069 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -704,47 +638,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NeoniOSDemo/Info.plist;
+				INFOPLIST_FILE = NeoniosDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = Girnar.NeoniosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "NeoniOSDemo-swift.h";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0016590323340F2D00A83EF0 /* Build configuration list for PBXProject "NeoniOSDemo" */ = {
+		00B43C3A233B6766004A1069 /* Build configuration list for PBXProject "NeoniosDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0016590F23340F2D00A83EF0 /* Debug */,
-				0016591023340F2D00A83EF0 /* Release */,
+				00B43C46233B6766004A1069 /* Debug */,
+				00B43C47233B6766004A1069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0016591123340F2D00A83EF0 /* Build configuration list for PBXNativeTarget "NeoniOSDemo" */ = {
+		00B43C48233B6766004A1069 /* Build configuration list for PBXNativeTarget "NeoniosDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0016591223340F2D00A83EF0 /* Debug */,
-				0016591323340F2D00A83EF0 /* Release */,
+				00B43C49233B6766004A1069 /* Debug */,
+				00B43C4A233B6766004A1069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0016590023340F2D00A83EF0 /* Project object */;
+	rootObject = 00B43C37233B6766004A1069 /* Project object */;
 }

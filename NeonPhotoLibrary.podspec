@@ -6,7 +6,7 @@ s.ios.deployment_target = '12.0'
 s.name = "NeonPhotoLibrary"
 s.summary = "Neon iOS lets a user select images."
 s.requires_arc = true
-s.version = "1.0.0"
+s.version = "1.0.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 
@@ -14,9 +14,8 @@ s.author = { "iOSDeepak" => "deepakglbitm07@gmail.com" }
 s.homepage = "https://github.com/iOSDeepak/NeonPhotoLibrary"
 s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git', 
              :tag => "#{s.version}" }
-s.source_files = "NeoniOSDemo/*.{swift,h,m}"
+s.source_files = "NeoniOSDemo/**/*.{swift,h,m}"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.0"
-s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
 
 end
