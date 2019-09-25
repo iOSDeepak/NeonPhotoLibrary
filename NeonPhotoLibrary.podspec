@@ -17,5 +17,6 @@ s.source = { :git => 'https://github.com/iOSDeepak/NeonPhotoLibrary.git',
 s.source_files = "NeoniOSDemo/Source/*.{swift}"
 s.resources = "NeoniOSDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.0"
+s.pod_target_xcconfig = { "SWIFT_VERSION" => "5.0" }
 
 end
