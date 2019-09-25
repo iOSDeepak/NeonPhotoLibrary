@@ -2,12 +2,11 @@
 //  NeoniosDemo.h
 //  NeoniosDemo
 //
-//  Created by Neha on 9/24/19.
-//  Copyright © 2019 Neha. All rights reserved.
+//  Created by Deepak Sharma on 25/09/19.
+//  Copyright © 2019 GirnarSoft. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <TOCropViewController.h>
 
 //! Project version number for NeoniosDemo.
 FOUNDATION_EXPORT double NeoniosDemoVersionNumber;
